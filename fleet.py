@@ -1,6 +1,8 @@
+from robot import Robot
+
 class Fleet:
     def __init__(self):
-            self.robots = []
+            self.name = ''
 
     def robot_fleet(self):
-        pass
+        self.robots=[]
